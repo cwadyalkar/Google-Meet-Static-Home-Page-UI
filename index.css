@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper {
+  width: 100%;
+
+  
+}
+.mainscreen {
+  width: 100%;
+  height: 90vh;
+  background: #3c4043;
+}
+.footer {
+  height: 10vh;
+}
+.meetingfooter{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #202124;
+}
+  .Icon{
+    color: white;
+    background:#3c4043 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+.bg-red{
+    background: rgb(224, 13, 13);
+}
+.card{
+    background: #3c4043;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 100%;
+    border: 2px solid white;
+}
+
+ .participants {
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-gap: 20px;
+    height: 90vh;
+    padding: 10px;
+    } 
+  
+  .participants img{
+      border-radius: 50%; 
+      height: 120px; 
+      width: 120px;
+      
+    }
+
+  .video{
+    background-color: #353b48;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .participant {
+    background-color: #343437;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    border-radius: 6px;
+    min-height: 200px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* #25262a; #323236;*/
+  .muted {
+    color: #fff;
+    right: 10px;
+    position: absolute;
+    top: 10px;
+    background: #353b48;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px!important;
+  }
+.Icon:hover{
+  background: rgb(201, 79, 79);
+}
+  .hide {
+    display: none;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    font-size: 100px;
+    font-family: roboto, arial;
+    color: white;
+    text-align: center;
+    background: orange;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .name {
+    color: white;
+    bottom: 10px;
+    position: absolute;
+    left: 20px;
+  }
+.green{
+  color: aquamarine;
+}
+ 
+.avatar:hover{
+  background:rgb(97, 70, 12);
+  cursor: pointer;
+}
